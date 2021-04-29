@@ -1,0 +1,18 @@
+{
+    "recommends": "houdini_version >= '18.5.351'",
+
+    "env": [
+        {
+            "KB3D": "$HOUDINI_PACKAGE_DIR/kb3d-for-houdini"
+        },
+        {
+            "PATH": {
+                "method": "prepend",
+                "value": [
+                    "$KB3D/bin"
+                ]
+            }
+        }
+    ],
+    "path": "$KB3D"
+}
