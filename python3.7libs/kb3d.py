@@ -1,71 +1,53 @@
 import hou
 import re
 
-def get_duplicate_mats(selected_nodes):
-	duplicates = []
+def batch_replace_texture_paths():
+	selected_nodes = hou.selectedNodes()
+
 	if len(selected_nodes) > 0:
-		for n in selected_nodes:
-			if "shader" in n.type().name() or "material" in n.type().name():
-				if re.search("[0-9]$", n.name()):
-					duplicates.append(n)
-			else:
-				print(n.name() + " is not a shader!")
-	else:
-		print("No nodes selected!")
+		# Replace multiline input with dir selections
+		button_idx, values = hou.ui.readMultiInput(
+			"Path Replace", ("Old Path", "New Path"), buttons=("OK", "Cancel")
+		)
+		if button_idx == 0:
+			shaders = []
+			for n in selected_nodes:
+				name = n.type().name()
+				if name == "principledshader::2.0":
+					shaders.append(n)
+				elif name == "materialbuilder":
+					for c in n.children():
+						child_name = c.type().name()
+						if child_name == "principledshader::2.0":
+							shaders.append(c)
+			# MAKE CHECK FOR FOUND SHADERS!
+			for s in shaders:
+				textures = []
+				types = [
+					"basecolor", "ior", "rough", "aniso", "anisodir",
+					"metallic", "reflect", "reflecttint", "coat", "coatrough",
+					"transparency", "transcolor", "transdist", "dispersion",
+					"sss", "sssdist", "ssscolor", "sheen", "sheentint",
+					"emitcolor", "opaccolor"
+				]
 
-	return duplicates
+				for t in types:
+					useTexture = t + "_useTexture"
+					if s.evalParm(useTexture):
+						textures.append(t + "_texture")
 
-def remove_duplicate_mats(duplicates):
-	num_duplicates = len(duplicates)
-	if num_duplicates > 0:
-		if hou.ui.displayConfirmation(str(num_duplicates) + " duplicates found.\nProceed deletion?"):
-			for d in duplicates:
-				d.destroy()
+				if s.evalParm("baseBumpAndNormal_enable"):
+					if s.evalParm("baseBumpAndNormal_type") == "bump":
+						textures.append("baseBump_bumpTexture")
+					elif s.evalParm("baseBumpAndNormal_type") == "normal":
+						textures.append("baseNormal_texture")
+
+				for tex in textures:
+					oldpath = s.evalParm(tex)
+					newpath = re.sub(values[0], values[1], oldpath)
+					s.setParms({tex:newpath})
+
 		else:
-			print("Deletion cancelled!")
+			print("Path Replace canceled!")
 	else:
-		print("No duplicates found!") 
-
-def purge_fbx_subnets(selected_nodes):
-	fbx_subnets = []
-	shaders = []
-
-	if len(selected_nodes) > 0:		
-		for n in selected_nodes:
-			if n.type().name() == "subnet" and "fbx" in n.name():
-				fbx_subnets.append(n)
-
-	if len(fbx_subnets) > 0:
-		for n in fbx_subnets:
-			to_destroy = []
-			matnets = []
-			children = n.children()			
-			for c in children:				
-				if c.type().name() == "matnet":
-					matnets.append(c)
-				else:
-					to_destroy.append(c)
-
-			num_to_destroy = len(to_destroy)
-			if num_to_destroy > 0:
-				if hou.ui.displayConfirmation(str(num_to_destroy) + " nodes found to destroy inside " + n.name() + "'\nProceed deletion?",
-					title=n.name()):
-					for d in to_destroy:
-						d.destroy()
-					print(str(num_to_destroy) + " nodes destroyed inside " + n.name())
-				else:
-					print("Deletion cancelled")
-			else:
-				print("No nodes for deletion found!")
-
-			num_matnets = len(matnets)
-			if num_matnets > 0:
-				if hou.ui.displayConfirmation("Do you want to check shaders for duplicates?",
-					title=n.name()):
-					for m in matnets:
-						for shader in m.children():
-							shaders.append(shader)
-	else:
-		print("No FBX Subnets selected!")
-
-	return shaders
+		print("No shaders selected!")

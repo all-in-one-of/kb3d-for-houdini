@@ -6,7 +6,13 @@
  a single file. -->
 
   <toolshelf name="kb3d_for_houdini" label="KitBash3D for Houdini">
-    <memberTool name="remove_duplicate_mats"/>
-    <memberTool name="purge_fbx_subnet"/>
+    <memberTool name="batch_replace_texture_paths"/>
   </toolshelf>
+
+  <tool name="batch_replace_texture_paths" label="Batch Replace Texture Paths" icon="PLASMA_App">
+    <script scriptType="python"><![CDATA[import kb3d, importlib
+importlib.reload(kb3d)
+
+kb3d.batch_replace_texture_paths()]]></script>
+  </tool>
 </shelfDocument>
