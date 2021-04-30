@@ -10,8 +10,7 @@ Kits tested and working:
 - Storefronts
 - Wasteland
 
-![50%](https://progress-bar.dev/50)
- 6/50 Kits
+![50%](https://progress-bar.dev/50) 6/50 Kits
 
 ## KB3D Import
 
