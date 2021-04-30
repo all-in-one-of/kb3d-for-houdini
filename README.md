@@ -10,6 +10,9 @@ Kits tested and working:
 - Storefronts
 - Wasteland
 
+(https://progress-bar.dev/50)
+ 6/50 Kits
+
 ## KB3D Import
 
 Advanced FBX Importer / Bgeo Exporter for KB3D Kits
