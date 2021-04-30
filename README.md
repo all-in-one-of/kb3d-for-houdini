@@ -33,4 +33,4 @@ Batch texture path replacement for the principled shader
 
 ## To-Do
 
-[ ] Add py3 to readme
+- [ ] Add py3 to readme
