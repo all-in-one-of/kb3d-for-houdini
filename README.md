@@ -12,3 +12,19 @@ Kits tested and working:
 
 ## KB3D Import
 
+Advanced FBX Importer / Bgeo Exporter for KB3D Kits
+
+Features include:
+
+- Kit name detection
+- Path creation
+- KB3D shader assignment
+- USD prep
+
+## Shelf Tools
+
+This repo comes with a handful of useful shelf tools.
+
+### Shader Path Replacement
+
+Batch texture path replacement for the principled shader
