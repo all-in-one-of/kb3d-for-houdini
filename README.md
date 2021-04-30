@@ -1,7 +1,7 @@
 # KitBash3D for Houdini
 KitBash3D for SideFX Houdini
 
-Kits tested and working:
+Kit auto-detection and process for:
 
 - Ancient Temples
 - Egypt
@@ -10,7 +10,7 @@ Kits tested and working:
 - Storefronts
 - Wasteland
 
-![12%](https://progress-bar.dev/12) 6/50 Kits
+![12%](https://progress-bar.dev/12) 6/50 Kits optimized for auto-detection
 
 ## KB3D Import
 
