@@ -12,11 +12,11 @@ These tools are currently in BETA and are still being worked on.
 
 ## Getting started
 
-To get started with _KB3DfH_, we put down a KB3D Import SOP in either a Geometry Object. We can also put it down in a SOP Create LOP if we have decided to stay inside Solaris.
+To get started with *KB3DfH*, we put down a KB3D Import SOP anywhere on SOP level. We can put it down in a SOP Create LOP if we hchoose to stay inside Solaris.
 
 Once we select the FBX file provided with you KB3D kit, the tool should detect the kit name and process the file accordingly. If the tool does not detect the kit, it's either not a valid kit from KitBash3D, the fbx file has been renamed or the tool has not yet been optimized for that specific kit.
 
-Kit auto-detection and process for:
+Currently, *KB3DfH* supports six kits for auto-detection:
 
 - Ancient Temples
 - Egypt
@@ -25,7 +25,11 @@ Kit auto-detection and process for:
 - Storefronts
 - Wasteland
 
-![12%](https://progress-bar.dev/12) 6/50 Kits optimized for auto-detection
+![12%](https://progress-bar.dev/12)
+
+Check the contribute section for how you can help to add more.
+
+
 
 test image:
 
@@ -34,6 +38,12 @@ test image:
 ## Installation
 
 To be completed.
+
+## Troubleshooting
+
+## Contribute
+
+## Donate
 
 ## KB3D Import
 
