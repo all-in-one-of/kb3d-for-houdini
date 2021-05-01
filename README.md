@@ -48,6 +48,16 @@ Additionally to all these import modes, we can choose to move the objects to the
 
 ### Importing shaders
 
+Shaders can be imported in different ways, depending on the kit we are using.
+
+Many recent kits from KitBash3D come with a dedicated Houdini file. While the way the objects are layed out is undesirable, the shaders are setup perfectly. We can just merge the file into our projects and use the materials provided.
+
+If the kit does not have a Houdini file, we use the FBX Importer inside Houdini to load the kit as an FBX. The FBX Importer unfortunately is slow and doesn't translate the materials perfectly. Some manual intervention might be required to adjust the shaders to the desired quality.
+
+**We recommend to use the Houdini file whenever possible**
+
+Lastly, we can always build our own shaders by either using the same shader name as in the shop_materialpath attribute or overwriting/reassigning materials by the path or name attrbiute.
+
 test image:
 
 ![Test Screenshot](static/test.png "Test screenshot")
@@ -58,7 +68,11 @@ To be completed.
 
 ## Troubleshooting
 
+To be completed.
+
 ## Contribute
+
+To add more kits to the auto-detection, please send an email to lennart.breede@gmail.com with the FBX file name, the scale when importing into Houdini and an example of it's name attribute.
 
 ## Donate
 
