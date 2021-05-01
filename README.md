@@ -1,5 +1,6 @@
 # KitBash3D for Houdini
-KitBash3D for SideFX Houdini
+
+![KitBash3D for Houdini](static/kb3d-for-houdini-64px-light.png "Logo")
 
 ## Installation
 
@@ -9,7 +10,7 @@ To be completed.
 
 test image:
 
-[![Test Screenshot](static/test.png)]
+![Test Screenshot](static/test.png "Test screenshot")
 
 Kit auto-detection and process for:
 
