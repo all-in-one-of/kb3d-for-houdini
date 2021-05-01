@@ -3,6 +3,7 @@
 ![KitBash3D for Houdini](static/kb3d-for-houdini-logo-256px-dark.png "Logo")
 
 ![Supported Versions](https://img.shields.io/badge/python-3.7-blue.svg)
+![Supported Renderers](https://img.shields.io/badge/renderer-mantra%2C%20karma-red)
 
 ## Overview
 
@@ -45,12 +46,12 @@ The next part reads like a normal File Cache SOP. We can define an output direct
 
 Lastly, we can choose four ways of importing:
 
-1. Load all: Imports all objects at once.
-2. Load by name: Imports specified objects by their respective name attribute
-3. Load by frame: Each object is saved on a specific frame. Can be used to browse objects.
-4. Load none: Used to export only. Objects can be imported by a standard File SOP.
+1. Load All: Imports all objects at once.
+2. Load by Name: Imports specified objects by their respective name attribute
+3. Load by Frame: Each object is saved on a specific frame. Can be used to browse objects.
+4. Load Nothing: Used to export only. Objects can be imported by a standard File SOP.
 
-Additionally to all these import modes, we can choose to move the objects to their "rest position". The kits from KitBash3D usually come with their objects spread out in an ordered layout (small to big). When saving the objects to disk, this order needs to be removed and all objects need to be moved to scene centre. Before doing so, the original layout is saved in the rest attribute and can be restored at any time (usually for import mode 1: Load all).
+Additionally to all these import modes, we can choose to move the objects to their "rest position". The kits from KitBash3D usually come with their objects spread out in an ordered layout (small to big). When saving the objects to disk, this order needs to be removed and all objects need to be moved to scene centre. Before doing so, the original layout is saved in the rest attribute and can be restored at any time (usually for import mode 1: *Load All*).
 
 ### Importing shaders
 
