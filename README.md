@@ -31,6 +31,21 @@ Check the contribute section for how you can help to add more.
 
 **Please be aware that the tool is built in a way, where unsuppoted kits *should* still be processed correctly.**
 
+Once the kit is selected, we can do some manual overwrites if we want to change the scale of the imported asset or the root name of the path.
+
+We also need to specifiy a material network that holds all the necessary shaders. Please check the **Importing shaders** section for more info.
+
+The next part reads like a normal File Cache SOP. We can define an output directory and some load settings (Packed disks etc.).
+
+Lastly, we can choose four ways of importing:
+
+1. Load all: Imports all objects at once.
+2. Load by name: Imports specified objects by their respective name attribute
+3. Load by frame: Each object is saved on a specific frame. Can be used to browse objects.
+4. Load none: Used to export only. Objects can be imported by a standard File SOP.
+
+
+### Importing shaders
 
 test image:
 
