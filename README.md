@@ -31,7 +31,7 @@ This repo comes with a handful of useful shelf tools.
 
 Batch texture path replacement for the principled shader
 
-## To-Do
+## To Be Implemented
 
 - [ ] Add py3 to README
 - [ ] Added dir selection for batch replace texture path tool
