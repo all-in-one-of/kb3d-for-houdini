@@ -56,13 +56,17 @@ Additionally to all these import modes, we can choose to move the objects to the
 
 Shaders can be imported in different ways, depending on the kit we are using.
 
-Many recent kits from KitBash3D come with a dedicated Houdini file. While the way the node tree is layed out is undesirable, the shaders are setup perfectly. We can just merge the file into our projects and use the materials provided.
+1. Many recent kits from KitBash3D come with a dedicated Houdini file. While the way the node tree is layed out is undesirable, the shaders are setup perfectly. We can just merge the file into our projects and use the materials provided.
 
-If the kit does not have a Houdini file, we use the FBX Importer inside Houdini to load the kit as an FBX. The FBX Importer unfortunately is slow and doesn't translate the materials perfectly. Some manual intervention might be required to adjust the shaders to the desired quality.
+2. If the kit does not have a Houdini file, we use the FBX Importer inside Houdini to load the kit as an FBX. The FBX Importer unfortunately is slow and doesn't translate the materials perfectly. Some manual intervention might be required to adjust the shaders to the desired quality.
 
 **We recommend to use the Houdini file whenever possible**
 
+---
+
 It is recommended to move the **KB3DTexture** folder into your current project folder ($HIP) whenever using this tool since the materials usually look for their textures at `$HIP/KB3DTextures/[texture_file]`. If we choose not to do that, we can use the provided **Batch Replace Texture Paths** shelf tool to re-link all missing textures.
+
+---
 
 Lastly, we can always build our own shaders by either using the same shader name as in the shop_materialpath attribute or overwriting/re-assigning materials by the path or name attrbiute.
 
