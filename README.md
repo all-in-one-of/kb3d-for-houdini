@@ -8,7 +8,7 @@ To be completed.
 ## Workflow
 
 test image:
-![](https://github.com/lbreede/kb3d-for-houdini/blob/main/screenshots/test.png", "Test desc")
+![alt text](https://github.com/lbreede/kb3d-for-houdini/blob/main/screenshots/test.png "Test desc")
 
 Kit auto-detection and process for:
 
