@@ -39,7 +39,7 @@ Once the kit is selected, we can do some manual overwrites if we want to change 
 
 ---
 
-We also need to specifiy a material network that holds all the necessary shaders. Please check the **Importing shaders** section for more info.
+We also need to specifiy a material network that holds all the necessary shaders. Please check the [Importing shaders](#Importing-shaders) section for more info.
 
 ---
 
@@ -68,7 +68,7 @@ Shaders can be imported in different ways, depending on the kit we are using.
 
 ---
 
-It is recommended to move the **KB3DTexture** folder into your current project folder ($HIP) whenever using this tool since the materials usually look for their textures at `$HIP/KB3DTextures/[texture_file]`. If we choose not to do that, we can use the provided [test](#Batch-Replace-Texture-Paths) shelf tool to re-link all missing textures.
+It is recommended to move the **KB3DTexture** folder into your current project folder ($HIP) whenever using this tool since the materials usually look for their textures at `$HIP/KB3DTextures/[texture_file]`. If we choose not to do that, we can use the provided [Batch Replace Texture Paths](#Batch-Replace-Texture-Paths) shelf tool to re-link all missing textures.
 
 ---
 
@@ -80,7 +80,7 @@ To be completed.
 
 ### Export as USD
 
-Inside Solaris we can put down a SOP Create LOP and inside put down a KB3D Import SOP. After following the instructions of the *Gettings started* section, the objects should be optimized for Solaris and USD. Autofill Materials on the SOP Create LOP populates our kit with the necessary shaders and we can put down a USD ROP for export.
+Inside Solaris we can put down a SOP Create LOP and inside put down a KB3D Import SOP. After following the instructions of the [Gettings started](#Getting-started) section, the objects should be optimized for Solaris and USD. Autofill Materials on the SOP Create LOP populates our kit with the necessary shaders and we can put down a USD ROP for export.
 
 In a blank Houdini scene, we can test out the USD file by reading it in through a Sublayer LOP.
 
