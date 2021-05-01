@@ -2,6 +2,8 @@
 
 ![KitBash3D for Houdini](static/kb3d-for-houdini-logo-256px-dark.png "Logo")
 
+![Supported Versions](https://img.shields.io/badge/python-3.7-blue.svg)
+
 ## Installation
 
 To be completed.
