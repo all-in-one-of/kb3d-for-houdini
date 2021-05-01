@@ -22,12 +22,12 @@ Once we select the FBX file provided with your KB3D kit, the tool should detect 
 
 Currently, *KB3DfH* supports six kits for **guaranteed** auto-detection:
 
-- Ancient Temples
-- Egypt
-- Greebles
-- Secret Lab
-- Storefronts
-- Wasteland
+- [Ancients](https://kitbash3d.com/collections/kits/products/ancient-temples "Ancients")
+- [Egypt](https://kitbash3d.com/collections/kits/products/egypt "Egypt")
+- [Greebles](https://kitbash3d.com/collections/kits/products/props-greebles "Props: Greebles")
+- [Secret Lab](https://kitbash3d.com/collections/kits/products/props-secret-labs "Props: Secret Labs")
+- [Storefronts](https://kitbash3d.com/collections/kits/products/storefronts "Storefronts")
+- [Wasteland](https://kitbash3d.com/collections/kits/products/wasteland "Wasteland")
 
 ![12%](https://progress-bar.dev/12)
 
