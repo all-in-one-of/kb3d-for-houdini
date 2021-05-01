@@ -68,7 +68,7 @@ Shaders can be imported in different ways, depending on the kit we are using.
 
 ---
 
-It is recommended to move the **KB3DTexture** folder into your current project folder ($HIP) whenever using this tool since the materials usually look for their textures at `$HIP/KB3DTextures/[texture_file]`. If we choose not to do that, we can use the provided **Batch Replace Texture Paths** shelf tool to re-link all missing textures.
+It is recommended to move the **KB3DTexture** folder into your current project folder ($HIP) whenever using this tool since the materials usually look for their textures at `$HIP/KB3DTextures/[texture_file]`. If we choose not to do that, we can use the provided (#Batch-Replace-Texture-Paths) shelf tool to re-link all missing textures.
 
 ---
 
