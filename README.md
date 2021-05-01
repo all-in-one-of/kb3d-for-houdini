@@ -2,7 +2,8 @@
 
 ![KitBash3D for Houdini](static/kb3d-for-houdini-logo-256px-dark.png "Logo")
 
-![Supported Versions](https://img.shields.io/badge/python-3.7-blue.svg)
+![Supported Houdini](https://img.shields.io/badge/houdini-18.5-orange)
+![Supported Python](https://img.shields.io/badge/python-3.7-blue.svg)
 ![Supported Renderers](https://img.shields.io/badge/renderer-mantra%2C%20karma-red)
 
 ## Overview
