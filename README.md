@@ -1,6 +1,6 @@
 # KitBash3D for Houdini
 
-![KitBash3D for Houdini](static/kb3d-for-houdini-256px-light.png "Logo")
+![KitBash3D for Houdini](static/kb3d-for-houdini-logo-256px-light.png "Logo")
 
 ## Installation
 
