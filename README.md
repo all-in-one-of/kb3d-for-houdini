@@ -47,3 +47,5 @@ Batch texture path replacement for the principled shader
 - [ ] Added dir selection for batch replace texture path tool
 - [ ] Added custom prefix/root dir to path
 - [x] Fix kit detection script
+- [ ] Added custom fallback kit back it
+- [ ] Hide custom fallback field when kit detected
