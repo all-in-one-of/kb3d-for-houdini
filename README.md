@@ -1,6 +1,6 @@
 # KitBash3D for Houdini
 
-![KitBash3D for Houdini](static/kb3d-for-houdini-logo-256px-dark.png "Logo")
+![KitBash3D for Houdini](static/kb3d-for-houdini-logo-256px-darka.png "Logo")
 
 ![Supported Versions](https://img.shields.io/badge/python-3.7-blue.svg)
 
