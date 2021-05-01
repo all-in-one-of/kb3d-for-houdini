@@ -44,6 +44,7 @@ Lastly, we can choose four ways of importing:
 3. Load by frame: Each object is saved on a specific frame. Can be used to browse objects.
 4. Load none: Used to export only. Objects can be imported by a standard File SOP.
 
+Additionally to all these import modes, we can choose to move the objects to their "rest position". The kits from KitBash3D usually come with their objects spread out in an ordered layout (small to big). When saving the objects to disk, this order needs to be removed and all objects need to be moved to the scene centre. Before doing so, the original layout is saved in the rest attribute and can be restored at any time (usually for import mode 1: Load all).
 
 ### Importing shaders
 
