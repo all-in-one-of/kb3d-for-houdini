@@ -6,11 +6,11 @@
 
 ## Overview
 
-*KitBash3D for Houdini* is a free an opensource tool bundle to import [KitBash3D](https://kitbash3d.com/) kits into [SideFX Houdini](https://www.sidefx.com/), prep for rendering in Mantra or Karma and export as BGEO and/or USD.
+KitBash3D for Houdini (KB3DfH) is a free an opensource tool bundle to import [KitBash3D](https://kitbash3d.com/) kits into [SideFX Houdini](https://www.sidefx.com/), prep for rendering in Mantra or Karma and export as BGEO and USD.
 
-## Workflow
+## Getting started
 
-KB3D4H
+To get started with _KB3DfH_, we put down a KB3D Import SOP in either a Geometry Object or a SOP Create LOP, depending on your preferred way of working and 
 
 test image:
 
