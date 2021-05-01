@@ -6,15 +6,15 @@
 
 ## Overview
 
-KitBash3D for Houdini (KB3DfH) is a free an opensource tool bundle to import [KitBash3D](https://kitbash3d.com/) kits into [SideFX Houdini](https://www.sidefx.com/), prep for rendering in Mantra or Karma and export as BGEO and USD.
+KitBash3D for Houdini (KB3DfH) is a free an opensource tool bundle to import [KitBash3D](https://kitbash3d.com/) kits into [SideFX Houdini](https://www.sidefx.com/), prep the geometry for Solaris, export as BGEO and USD and render in Mantra or Karma.
+
+These tools are currently in BETA and are still being worked on.
 
 ## Getting started
 
-To get started with _KB3DfH_, we put down a KB3D Import SOP in either a Geometry Object or a SOP Create LOP, depending on your preferred way of working and 
+To get started with _KB3DfH_, we put down a KB3D Import SOP in either a Geometry Object. We can also put it down in a SOP Create LOP if we have decided to stay inside Solaris.
 
-test image:
-
-![Test Screenshot](static/test.png "Test screenshot")
+Once we select the FBX file provided with you KB3D kit, the tool should detect the kit name and process the file accordingly. If the tool does not detect the kit, it's either not a valid kit from KitBash3D, the fbx file has been renamed or the tool has not yet been optimized for that specific kit.
 
 Kit auto-detection and process for:
 
@@ -26,6 +26,10 @@ Kit auto-detection and process for:
 - Wasteland
 
 ![12%](https://progress-bar.dev/12) 6/50 Kits optimized for auto-detection
+
+test image:
+
+![Test Screenshot](static/test.png "Test screenshot")
 
 ## Installation
 
