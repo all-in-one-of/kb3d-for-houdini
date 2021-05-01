@@ -9,7 +9,7 @@ To be completed.
 
 test image:
 
-![Test Screenshot](static/test.png "Test Screenshot")
+[![Test Screenshot](static/test.png)]
 
 Kit auto-detection and process for:
 
