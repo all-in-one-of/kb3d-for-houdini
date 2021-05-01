@@ -29,6 +29,7 @@ Currently, *KB3DfH* supports six kits for auto-detection:
 
 Check the contribute section for how you can help to add more.
 
+**Please be aware that the tool is built in a way, where unsuppoted kits *should* still be processed correctly.**
 
 
 test image:
