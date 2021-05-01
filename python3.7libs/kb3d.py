@@ -5,7 +5,7 @@ def batch_replace_texture_paths():
 	selected_nodes = hou.selectedNodes()
 
 	if len(selected_nodes) > 0:
-		# Replace multiline input with dir selections
+		# Replace multiline input with dir selections?
 		button_idx, values = hou.ui.readMultiInput(
 			"Path Replace", ("Old Path", "New Path"), buttons=("OK", "Cancel")
 		)

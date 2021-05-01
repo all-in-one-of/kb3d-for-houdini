@@ -1,6 +1,16 @@
 # KitBash3D for Houdini
 KitBash3D for SideFX Houdini
 
+## Installation
+
+To be completed.
+
+## Workflow
+
+test image:
+
+
+
 Kit auto-detection and process for:
 
 - Ancient Temples
