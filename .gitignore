@@ -130,3 +130,6 @@ dmypy.json
 
 # otls
 otls/backup/
+
+# more
+.DS_Store
