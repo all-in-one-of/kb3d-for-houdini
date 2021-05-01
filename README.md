@@ -33,9 +33,15 @@ Check the contribute section for how you can help to add more.
 
 Once the kit is selected, we can do some manual overwrites if we want to change the scale of the imported asset or the root name of the path.
 
+---
+
 We also need to specifiy a material network that holds all the necessary shaders. Please check the **Importing shaders** section for more info.
 
+---
+
 The next part reads like a normal File Cache SOP. We can define an output directory and some load settings (Packed disks etc.).
+
+---
 
 Lastly, we can choose four ways of importing:
 
