@@ -9,7 +9,7 @@ To be completed.
 
 test image:
 
-![alt text](https://github.com/lbreede/kb3d-for-houdini/blob/main/screenshots/test.png "Test desc")
+![Test Screenshot](static/test.png "Test Screenshot")
 
 Kit auto-detection and process for:
 
