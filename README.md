@@ -56,11 +56,13 @@ If the kit does not have a Houdini file, we use the FBX Importer inside Houdini 
 
 **We recommend to use the Houdini file whenever possible**
 
+It is recommended to move the **KB3DTexture** folder into your current project folder ($HIP) whenever using this tool since the materials usually look for their textures at `$HIP/KB3DTextures/[texture_file]`. If we choose not to do that, we can use the provided **Batch Replace Texture Paths** shelf tool to re-link all missing textures.
+
 Lastly, we can always build our own shaders by either using the same shader name as in the shop_materialpath attribute or overwriting/reassigning materials by the path or name attrbiute.
 
-test image:
+### Batch Replace Texture Paths
 
-![Test Screenshot](static/test.png "Test screenshot")
+To be completed.
 
 ## Installation
 
@@ -76,30 +78,8 @@ To add more kits to the auto-detection, please send an email to lennart.breede@g
 
 ## Donate
 
-## KB3D Import
+To be completed.
 
-Advanced FBX Importer / Bgeo Exporter for KB3D Kits
+test image:
 
-Features include:
-
-- Kit name detection
-- Path creation
-- KB3D shader assignment
-- USD prep
-
-## Shelf Tools
-
-This repo comes with a handful of useful shelf tools.
-
-### Shader Path Replacement
-
-Batch texture path replacement for the principled shader
-
-## To Be Implemented
-
-- [ ] Add py3 to README
-- [ ] Added dir selection for batch replace texture path tool
-- [ ] Added custom prefix/root dir to path
-- [x] Fix kit detection script
-- [ ] Added custom fallback kit back it
-- [ ] Hide custom fallback field when kit detected
+![Test Screenshot](static/test.png "Test screenshot")
