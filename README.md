@@ -4,9 +4,9 @@
 
 ![Supported Versions](https://img.shields.io/badge/python-3.7-blue.svg)
 
-## Installation
+## Overview
 
-To be completed.
+To be completed
 
 ## Workflow
 
@@ -24,6 +24,10 @@ Kit auto-detection and process for:
 - Wasteland
 
 ![12%](https://progress-bar.dev/12) 6/50 Kits optimized for auto-detection
+
+## Installation
+
+To be completed.
 
 ## KB3D Import
 
