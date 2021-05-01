@@ -74,6 +74,12 @@ Lastly, we can always build our own shaders by either using the same shader name
 
 To be completed.
 
+### Export as USD
+
+Inside Solaris we can put down a SOP Create LOP and inside put down a KB3D Import SOP. After following the instructions of the *Gettings started* section, the objects should be optimized for Solaris and USD. Autofill Materials on the SOP Create LOP populates our kit with the necessary shaders and we can put down a USD ROP for export.
+
+In a blank Houdini scene, we can test out the USD file by reading it in through a Sublayer LOP.
+
 ## Installation
 
 To be completed.
