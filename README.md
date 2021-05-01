@@ -8,7 +8,7 @@
 
 ## Overview
 
-KitBash3D for Houdini (KB3DfH) is a free and open-source tool bundle to import [KitBash3D](https://kitbash3d.com/ "KitBash3d") kits into [SideFX Houdini](https://www.sidefx.com/ "SideFX Houdini"), prep the geometry for Solaris and export as BGEO and [USD](https://graphics.pixar.com/usd/docs/index.html "Introduction to USD") to be rendered in Mantra or Karma.
+KitBash3D for Houdini (KB3DfH) is a free and open-source tool bundle to import [KitBash3D](https://kitbash3d.com/ "KitBash3d") kits into [SideFX Houdini](https://www.sidefx.com/ "SideFX Houdini"), prep the geometry for Solaris and export as BGEO and [USD](https://graphics.pixar.com/usd/docs/index.html "Introduction to USD") to be rendered in Mantra and Karma.
 
 ![Overview](static/screenshot-overview.png "Overview")
 
