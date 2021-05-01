@@ -35,3 +35,5 @@ Batch texture path replacement for the principled shader
 
 - [ ] Add py3 to README
 - [ ] Added dir selection for batch replace texture path tool
+- [ ] Added custom prefix/root dir to path
+- [x] Fix kit detection script
