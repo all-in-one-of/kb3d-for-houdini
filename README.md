@@ -16,8 +16,8 @@ The tool was created as an attempt to circumvent the existing two ways to import
 
 Using the FBX Import:
 
-![FBX Import](static/screenshot-fbx-importb.png "FBX Import")
-![HIP Import](static/screenshot-hip-importb.png "HIP Import")
+![FBX Import](static/screenshot-fbx-import.png "FBX Import")
+![HIP Import](static/screenshot-hip-import.png "HIP Import")
 
 Importing the included hipfile (only available for newer kits):
 
