@@ -86,7 +86,9 @@ In a blank Houdini scene, we can test out the USD file by reading it in through 
 
 ## Installation
 
-To be completed.
+The intended method of installation is through [Houdini packages](https://www.sidefx.com/docs/houdini/ref/plugins.html). After defining a `$HOUDINI_PACKAGE_DIR` in our global environment variables, we can save the repo inside said directory.
+
+After that we use the `kb3d-for-houdini.json.template` file, remove the `.template` extension to convert it into .json file and save it in the same directory (`$HOUDINI_PACKAGE_DIR`).
 
 ## Troubleshooting
 
