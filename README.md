@@ -14,8 +14,8 @@ KitBash3D for Houdini (KB3DfH) is a free and open-source tool bundle to import [
 
 The tool was created as an attempt to circumvent the existing two ways to import KitBash3D files into Houdini, using the FBX Import and importing the included HIP file (only available for newer kits).
 
-![FBX Import](static/screenshot-fbx-import "FBX Import")
-![HIP Import](static/screenshot-hip-import "HIP Import")
+![FBX Import](static/screenshot-fbx-import.png "FBX Import")
+![HIP Import](static/screenshot-hip-import.png "HIP Import")
 
 These tools are currently in BETA and are still being worked on.
 
