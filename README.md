@@ -86,9 +86,9 @@ In a blank Houdini scene, we can test out the USD file by reading it in through 
 
 ## Installation
 
-The intended method of installation is through [Houdini packages](https://www.sidefx.com/docs/houdini/ref/plugins.html). After defining a `$HOUDINI_PACKAGE_DIR` in our global environment variables, we can save the repo inside said directory.
+The intended method of installation is through [Houdini packages](https://www.sidefx.com/docs/houdini/ref/plugins.html). After defining `$HOUDINI_PACKAGE_DIR` in our global environment variables, we can save the repo inside said directory along with a .json file pointing to it.
 
-After that we use the `kb3d-for-houdini.json.template` file, remove the `.template` extension to convert it into .json file and save it in the same directory (`$HOUDINI_PACKAGE_DIR`).
+A template .json file is part of the repo too (`kb3d-for-houdini.json.template`).
 
 ## Troubleshooting
 
@@ -97,6 +97,10 @@ To be completed.
 ## Contribute
 
 To add more kits to the auto-detection, please send an email to lennart.breede@gmail.com with the FBX file name, the scale when importing into Houdini and an example of it's name attribute.
+
+## Upcoming features
+
+- [ ] Better shader import for both older and new KitBash3D kits.
 
 ## Donate
 
