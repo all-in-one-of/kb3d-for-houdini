@@ -131,6 +131,10 @@ dmypy.json
 # otls
 otls/backup/
 
+# photoshop
+.psd
+
 # more
 .DS_Store
 kb3d_old.py
+
