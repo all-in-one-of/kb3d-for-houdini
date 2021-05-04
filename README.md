@@ -114,6 +114,7 @@ To add more kits to the auto-detection, please send an email to lennart.breede@g
 
 - [ ] Completing list of kits available for auto-detection
 - [ ] Better shader import for both older and new KitBash3D kits.
+- [ ] GUI for kit/asset picking
 
 ## Donate
 
