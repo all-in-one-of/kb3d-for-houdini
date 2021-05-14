@@ -6,7 +6,7 @@
  a single file. -->
 
   <tool name="batch_replace_texture_paths" label="Batch Replace Texture Paths" icon="PLASMA_App">
-    <script scriptType="python"><![CDATA[import kb3d
+    <script scriptType="python"><![CDATA[import kb3d_tools as kb3d
 
 kb3d.batch_replace_texture_paths()]]></script>
   </tool>
