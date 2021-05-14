@@ -48,6 +48,6 @@ def batch_replace_texture_paths():
 					s.setParms({tex:newpath})
 
 		else:
-			print("Path Replace canceled!")
+			print("Path Replace cancelled!")
 	else:
 		print("No shaders selected!")
