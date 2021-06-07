@@ -10,4 +10,14 @@
 
 kb3d.batch_replace_texture_paths()]]></script>
   </tool>
+
+  <toolshelf name="kb3d" label="KB3D">
+    <memberTool name="batch_replace_texture_paths1"/>
+  </toolshelf>
+
+  <tool name="batch_replace_texture_paths1" label="Batch Replace Texture Paths" icon="PLASMA_App">
+    <script scriptType="python"><![CDATA[import kb3d_tools as kb3d
+
+kb3d.batch_replace_texture_paths()]]></script>
+  </tool>
 </shelfDocument>
